@@ -13,11 +13,12 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Trabalho de conclusao de SCM");
+        System.out.println("\nTrabalho de conclusao de SCM\n");
         Scanner input = new Scanner(System.in);
         System.out.println("Digite uma palavra para criptografar:");
         String name = input.nextLine();
-        Sample sample = new Sample();
-        System.out.println(sample.hash(name));
+        Hasher sample = new Hasher();
+        System.out.println("SHA256: " + sample.sha256(name));
+        System.out.println("MD5: " + sample.md5(name));
     }
 }

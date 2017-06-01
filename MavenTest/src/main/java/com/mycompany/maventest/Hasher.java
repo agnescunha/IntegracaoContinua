@@ -15,15 +15,27 @@ import java.util.logging.Logger;
  *
  * @author marce
  */
-public class Sample {
-    public String hash(String text){
+public class Hasher {
+    public String sha256(String text){
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
             md.update(text.getBytes());
             BigInteger hash = new BigInteger(1, md.digest());
             return hash.toString(16);
         } catch (NoSuchAlgorithmException ex) {
-            Logger.getLogger(Sample.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Hasher.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return "";
+    }
+    
+    public String md5(String text){
+        try {
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            md.update(text.getBytes());
+            BigInteger hash = new BigInteger(1, md.digest());
+            return hash.toString(16);
+        } catch (NoSuchAlgorithmException ex) {
+            Logger.getLogger(Hasher.class.getName()).log(Level.SEVERE, null, ex);
         }
         return "";
     }
