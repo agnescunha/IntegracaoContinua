@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 public class SampleUnitTest {
     
     private Hasher hasher;
-    private final String word = "ROGER";
+    private final String word = "Testando.";
     
     public SampleUnitTest() {
     }
@@ -36,7 +36,7 @@ public class SampleUnitTest {
         String hash = this.hasher.sha256(word);
         System.out.println("Criando hash SHA256...");
         assertNotEquals(hash, "");
-        assertEquals(hash.length(), 64);
+        assertEquals(hash.length(),64);
         System.out.println("Hash SHA256 criada para " + word + " foi:\n" + hash + "\n");
     }
     
