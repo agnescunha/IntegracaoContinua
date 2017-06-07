@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 public class SampleUnitTest {
     
     private Hasher hasher;
-    private final String word = "Testando.";
+    private final String word = "Roger Urdangarin.";
     
     public SampleUnitTest() {
     }
