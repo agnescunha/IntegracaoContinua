@@ -15,5 +15,6 @@ public class Main {
         Conversor conversor = new Conversor();
         System.out.println(conversor.converterBinario("estou testando uma frase"));
         System.out.println(conversor.converterBinario("testando"));
+        System.out.println("teste");
     }
 }
