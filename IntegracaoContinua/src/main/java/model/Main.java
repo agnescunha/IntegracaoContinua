@@ -19,5 +19,7 @@ public class Main {
         
         System.out.println("minha frase em hexadecimal: "+conversor.converterHexadecimal("trabalho chato"));
         
+        System.out.println("valor de 16 em binario é "+conversor.converterBinario(16));
+        
     }
 }

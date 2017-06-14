@@ -33,6 +33,9 @@ public class Conversor {
         return binario;
     }
     
+    public String converterBinario(int a){
+        return Integer.toBinaryString(a);
+    }
     /*
     Recebe um texto qualquer e o converte para Hexadecimal 
     e o atribui a uma string para retorno
