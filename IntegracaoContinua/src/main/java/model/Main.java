@@ -21,5 +21,7 @@ public class Main {
         
         System.out.println("valor de 16 em binario é "+conversor.converterBinario(16));
         
+        System.out.println("Teste 1 em aula "+conversor.converterBinario("Agnes"));
+        
     }
 }
