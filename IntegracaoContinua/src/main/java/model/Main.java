@@ -15,13 +15,13 @@ public class Main {
         Conversor conversor = new Conversor();
         System.out.println("minha frase em binario: "+conversor.converterBinario("estou testando uma frase"));
                 
-        System.out.println("valor de 16 em hexadecimal é "+conversor.converterHexadecimal(16));
+        System.out.println("valor de 16 em hexadecimal é "+conversor.converterHexadecimal(50));
         
-        System.out.println("minha frase em hexadecimal: "+conversor.converterHexadecimal("trabalho chato"));
+        System.out.println("minha frase em hexadecimal: "+conversor.converterHexadecimal("trabalho"));
         
         System.out.println("valor de 16 em binario é "+conversor.converterBinario(16));
         
-        System.out.println("Teste 1 em aula "+conversor.converterBinario(Agnes));
+        System.out.println("Teste 1 em aula "+conversor.converterBinario("Agnes"));
         
     }
 }
