@@ -13,6 +13,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
+        System.out.println("TESTE");
         System.out.println("\nTrabalho de conclusao de SCM\n");
         Scanner input = new Scanner(System.in);
         System.out.println("Digite uma palavra para criptografar:");
