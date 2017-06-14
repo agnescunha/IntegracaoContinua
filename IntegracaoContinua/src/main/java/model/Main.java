@@ -12,7 +12,7 @@ package model;
  */
 public class Main {
     public static void main(String[] args){
-        Conversor criptografia = new Conversor();
-        System.out.println(criptografia.criptografar("estou testando uma frase"));
+        Conversor conversor = new Conversor();
+        System.out.println(conversor.converterBinario("estou testando uma frase"));
     }
 }

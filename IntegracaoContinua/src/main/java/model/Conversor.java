@@ -5,14 +5,9 @@
  */
 package model;
 
-import java.rmi.RemoteException;
-import javax.crypto.Cipher;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
-
 /**
  *
- * @author marce
+ * @author Agnes Cunha
  */
 public class Conversor {
     
