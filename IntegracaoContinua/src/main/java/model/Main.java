@@ -13,7 +13,7 @@ package model;
 public class Main {
     public static void main(String[] args){
         Conversor conversor = new Conversor();
-        System.out.println("minha frase em binario: "+conversor.converterBinario("estou testando uma frase"));
+        System.out.println(minha frase em binario: "+conversor.converterBinario("estou testando uma frase"));
                 
         System.out.println("valor de 16 em hexadecimal é "+conversor.converterHexadecimal(16));
         
