@@ -16,5 +16,7 @@ public class Main {
         System.out.println(conversor.converterBinario("estou testando uma frase"));
         System.out.println(conversor.converterBinario("testando"));
         System.out.println("teste");
+        System.out.println(conversor.converterHexadecimal(16));
+        
     }
 }
